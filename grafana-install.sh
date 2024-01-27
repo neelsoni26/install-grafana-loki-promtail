@@ -22,4 +22,4 @@ sudo docker run -d --name loki -v $(pwd):/mnt/config -p 3100:3100 grafana/loki:2
 sudo docker run -d --name promtail -v $(pwd):/mnt/config -v /var/log:/var/log --link loki grafana/promtail:2.8.0 --config.file=/mnt/config/promtail-config.yaml
 sudo docker ps
 echo "Grafana with Loki and Promtail is installed and configured."
-echo "OPEN PORT 3000 and 3001 FROM SECURITY GROUP"
+echo "OPEN PORT 3000 and 3100 FROM SECURITY GROUP"
