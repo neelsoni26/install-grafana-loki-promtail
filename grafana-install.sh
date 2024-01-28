@@ -11,7 +11,7 @@ sudo apt-get install grafana -y
 sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
 sudo apt-get install -y docker.io
-# sudo usermod -aG docker $USER
+sudo chown $USER /var/run/docker.sock
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 mkdir grafana-configs
