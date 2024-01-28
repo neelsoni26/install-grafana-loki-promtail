@@ -10,7 +10,7 @@ sudo apt-get update #Update the system
 sudo apt-get install grafana -y
 sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
-sudo apt-get install -y docker.io
+sudo apt-get install -y docker.io docker-compose
 sudo chown $USER /var/run/docker.sock
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
