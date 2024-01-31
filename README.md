@@ -1,5 +1,5 @@
 # install-grafana-loki-promtail
-This repo's readme file has guide to install the grafana, loki and promtail, Prometheus, cAdvisor, reddis.
+This repo's readme file has guide to install the Grafana, Loki, Promtail, Prometheus, cAdvisor and Reddis.
 
 You can also just run the above files to install everything in seconds without the lengthy steps: <br />
 Step 1: clone the repo with git clone <br />
