@@ -141,5 +141,8 @@ docker-compose ps
 ### Test PromQL
 
 ```
-rate(container_cpu_usage_seconds_total{name="redis"}[1m])container_memory_usage_bytes{name="redis"}
+rate(container_cpu_usage_seconds_total{name="redis"}[1m])
+```
+```
+container_memory_usage_bytes{name="redis"}
 ```
