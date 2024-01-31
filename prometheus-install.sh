@@ -8,4 +8,4 @@ echo -e "  - job_name: cadvisor\n    static_configs:\n      - targets:\n        
 wget https://raw.githubusercontent.com/neelsoni26/install-grafana-loki-promtail/master/docker-compose.yml
 docker-compose up -d
 echo "Prometheus, cAdvisor, Reddis are installed and configured."
-echo "OPEN PORT 9090, 9090 and 6379 FROM SECURITY GROUP"
+echo "OPEN PORT 9090, 8080 and 6379 FROM SECURITY GROUP"
