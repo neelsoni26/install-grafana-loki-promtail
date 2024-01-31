@@ -15,6 +15,10 @@ Step 2: run
 bash prometheus-install.sh
 ```
 
+Done! All the tools are installed and configured.
+<br /> <br />
+OR follow the one by one steps below:
+<br />
 
 ## Install Grafana on Debian or Ubuntu
 
