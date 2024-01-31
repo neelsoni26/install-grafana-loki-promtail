@@ -2,9 +2,12 @@
 This repo's readme file has guide to install the Grafana, Loki, Promtail, Prometheus, cAdvisor and Reddis.
 
 You can also just run the above files to install everything in seconds without the lengthy steps: <br />
-Step 1: clone the repo with git clone <br />
-Step 2: run bash grafana-install.sh <br />
-Step 2: run bash bash prometheus-install.sh <br />
+Step 1: Clone the repo with
+```git clone https://github.com/neelsoni26/install-grafana-loki-promtail.git``` <br />
+Step 2: run
+```bash grafana-install.sh``` <br />
+Step 2: run 
+```bash prometheus-install.sh``` <br />
 
 
 ## Install Grafana on Debian or Ubuntu
