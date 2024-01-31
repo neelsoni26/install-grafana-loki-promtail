@@ -4,7 +4,7 @@ This repo's readme file has guide to install the Grafana, Loki, Promtail, Promet
 You can also just run the above files to install everything in seconds without the lengthy steps: <br /> <br />
 Step 1: Clone the repo with
 ```
-git clone https://github.com/neelsoni26/install-grafana-loki-promtail.git
+git clone https://github.com/neelsoni26/install-grafana-prometheus.git
 ```
 Step 2: run
 ```
